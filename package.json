@@ -31,7 +31,7 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "dizmo-function",
+  "name": "@dizmo/dizmo-function",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dizmo/DizmoFunction.git"
