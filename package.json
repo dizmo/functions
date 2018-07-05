@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Hasan Karahan",
+    "email": "hkarahan@dizmo.com",
+    "url": "https://github.com/hsk81"
+  },
+  "bugs": {
+    "url": "https://github.com/dizmo/DizmoFunction/issues"
+  },
+  "description": "Library of useful functions",
+  "dependencies": {
+    "@hsk81/buffered": "^1.1.15"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "typescript": "^2.9.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/dizmo/DizmoFunction#readme",
+  "keywords": [
+    "dizmo",
+    "function",
+    "library"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "dizmo-function",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dizmo/DizmoFunction.git"
+  },
+  "scripts": {
+    "build": "npx tsc && npx babel dist/index.js --out-file dist/index.js --source-maps --presets=env",
+    "cover": "npx istanbul cover _mocha test/*.js",
+    "test": "npx mocha"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}
