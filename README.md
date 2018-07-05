@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hsk81/DizmoFunction.svg?branch=master)](https://travis-ci.org/hsk81/DizmoFunction)
+
 # DizmoFunction
 Library of useful functions, which can be used in dizmos.
 
