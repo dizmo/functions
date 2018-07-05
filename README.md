@@ -3,12 +3,12 @@ Library of useful functions, which can be used in dizmos.
 
 ## Installation 
 ```sh
-npm install @dizmo/dizmo-functions --save
+npm install @dizmo/dizmo-function --save
 ```
 
 ## Usage
 ```javascript
-var functions = require('@dizmo/dizmo-functions');
+var fn = require('@dizmo/dizmo-function');
 ```
 
 ## Test 
