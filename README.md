@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/hsk81/dizmo-function.svg?branch=master)](https://travis-ci.org/hsk81/dizmo-function)
-[![Coverage Status](https://coveralls.io/repos/github/hsk81/dizmo-function/badge.svg?branch=master)](https://coveralls.io/github/hsk81/dizmo-function?branch=master)
+[![Build Status](https://travis-ci.org/dizmo/dizmo-function.svg?branch=master)](https://travis-ci.org/dizmo/dizmo-function)
+[![Coverage Status](https://coveralls.io/repos/github/dizmo/dizmo-function/badge.svg?branch=master)](https://coveralls.io/github/dizmo/dizmo-function?branch=master)
 
 # DizmoFunction
 Library of useful functions, which can be used in developing dizmos.
