@@ -30,7 +30,7 @@
     "library"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "dist/index.js",
   "name": "dizmo-function",
   "repository": {
     "type": "git",
