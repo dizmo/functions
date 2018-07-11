@@ -4,7 +4,7 @@
 # DizmoFunction
 Library of useful functions, which can be used in developing dizmos.
 
-## Installation 
+## Installation
 ```sh
 npm install @dizmo/dizmo-function --save
 ```
@@ -14,9 +14,28 @@ npm install @dizmo/dizmo-function --save
 var fn = require('@dizmo/dizmo-function');
 ```
 
-## Test 
+## Build
+```sh
+npm run build
+```
+
+## Lint
+```sh
+npm run lint
+```
+### with fixes:
+```sh
+npm run lint:fix
+```
+
+## Test
 ```sh
 npm run test
+```
+
+## Cover
+```sh
+npm run cover
 ```
 
 ## License
