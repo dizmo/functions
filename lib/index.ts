@@ -1,1 +1,1 @@
-export * from '@hsk81/buffered';
+export * from "@hsk81/buffered";
