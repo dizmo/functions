@@ -1,17 +1,17 @@
-[![Build Status](https://travis-ci.org/dizmo/dizmo-function.svg?branch=master)](https://travis-ci.org/dizmo/dizmo-function)
-[![Coverage Status](https://coveralls.io/repos/github/dizmo/dizmo-function/badge.svg?branch=master)](https://coveralls.io/github/dizmo/dizmo-function?branch=master)
+[![Build Status](https://travis-ci.org/dizmo/dizmo-functions.svg?branch=master)](https://travis-ci.org/dizmo/dizmo-functions)
+[![Coverage Status](https://coveralls.io/repos/github/dizmo/dizmo-functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/dizmo-functions?branch=master)
 
 # DizmoFunction
 Library of useful functions, which can be used in developing dizmos.
 
 ## Installation
 ```sh
-npm install @dizmo/dizmo-function --save
+npm install @dizmo/dizmo-functions --save
 ```
 
 ## Usage
 ```javascript
-var fn = require('@dizmo/dizmo-function');
+var fn = require('@dizmo/dizmo-functions');
 ```
 
 ## Build
