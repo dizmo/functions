@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/dizmo/dizmo-functions.svg?branch=master)](https://travis-ci.org/dizmo/dizmo-functions)
 [![Coverage Status](https://coveralls.io/repos/github/dizmo/dizmo-functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/dizmo-functions?branch=master)
 
-# DizmoFunction
+# DizmoFunctions
 Library of useful functions, which can be used in developing dizmos.
 
 ## Installation
