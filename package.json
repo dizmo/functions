@@ -7,7 +7,7 @@
   "description": "library of useful functions",
   "dependencies": {
     "@dizmo/functions-buffered": "^1.1.23",
-    "@dizmo/functions-random": "^1.0.10"
+    "@dizmo/functions-random": "^1.0.11"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
