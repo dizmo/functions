@@ -4,9 +4,10 @@
     "email": "hkarahan@dizmo.com",
     "url": "https://github.com/hsk81"
   },
-  "description": "Library of useful functions",
+  "description": "library of useful functions",
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.21"
+    "@dizmo/functions-buffered": "^1.1.23",
+    "@dizmo/functions-random": "^1.0.10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -15,7 +16,7 @@
     "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
-    "tslint": "^5.10.0",
+    "tslint": "^5.11.0",
     "typescript": "^2.9.2"
   },
   "files": [

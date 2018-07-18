@@ -19,3 +19,14 @@ describe('index.buffered', () => {
         expect(index.buffered).to.be.a('function');
     });
 });
+
+describe('index.random', () => {
+    it('should exist', () => {
+        expect(index.random).to.exist;
+        expect(String.random).to.exist;
+    });
+    it('should be a function', () => {
+        expect(index.random).to.be.a('function');
+        expect(String.random).to.be.a('function');
+    });
+});

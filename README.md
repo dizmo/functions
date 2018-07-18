@@ -18,6 +18,9 @@ var lib = require('@dizmo/functions');
 ```javascript
 var buffered = require('@dizmo/functions').buffered;
 ```
+```javascript
+var random = require('@dizmo/functions').random;
+```
 
 ## Development
 ### Build
