@@ -1,43 +1,45 @@
-[![Build Status](https://travis-ci.org/dizmo/dizmo-functions.svg?branch=master)](https://travis-ci.org/dizmo/dizmo-functions)
-[![Coverage Status](https://coveralls.io/repos/github/dizmo/dizmo-functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/dizmo-functions?branch=master)
+[![Build Status](https://travis-ci.org/dizmo/functions.svg?branch=master)](https://travis-ci.org/dizmo/functions)
+[![Coverage Status](https://coveralls.io/repos/github/dizmo/functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/functions?branch=master)
 
-# DizmoFunctions
+# @dizmo/functions
 Library of useful functions, which can be used in developing dizmos.
 
-## Installation
-```sh
-npm install @dizmo/dizmo-functions --save
-```
-
 ## Usage
+### Install
+```sh
+npm install @dizmo/functions --save
+```
+### Require
 ```javascript
-var fn = require('@dizmo/dizmo-functions');
+var lib = require('@dizmo/functions');
+```
+### Examples
+```javascript
+var buffered = require('@dizmo/functions').buffered;
 ```
 
-## Build
+## Development
+### Build
 ```sh
 npm run build
 ```
-
-## Lint
+### Lint
 ```sh
 npm run lint
 ```
-### with fixes:
+#### with fixes:
 ```sh
 npm run lint:fix
 ```
-
-## Test
+### Test
 ```sh
 npm run test
 ```
-
-## Cover
+### Cover
 ```sh
 npm run cover
 ```
 
-## License
+## Copyright
 
- © 2018 [dizmo AG, Switzerland](http://dizmo.com/)
+ © 2018 [dizmo AG](http://dizmo.com/), Switzerland

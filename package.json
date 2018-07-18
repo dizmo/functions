@@ -4,12 +4,9 @@
     "email": "hkarahan@dizmo.com",
     "url": "https://github.com/hsk81"
   },
-  "bugs": {
-    "url": "https://github.com/dizmo/dizmo-functions/issues"
-  },
   "description": "Library of useful functions",
   "dependencies": {
-    "@hsk81/buffered": "^1.1.15"
+    "@dizmo/functions-buffered": "^1.1.21"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -24,7 +21,6 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/dizmo/dizmo-functions#readme",
   "keywords": [
     "dizmo",
     "function",
@@ -32,17 +28,17 @@
   ],
   "license": "ISC",
   "main": "dist/index.js",
-  "name": "@dizmo/dizmo-functions",
+  "name": "@dizmo/functions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dizmo/dizmo-functions.git"
+    "url": "git+https://github.com/dizmo/functions.git"
   },
   "scripts": {
-    "build": "npx tsc && npx babel dist/index.js --out-file dist/index.js --source-maps --presets=env",
-    "cover": "npx istanbul cover _mocha test/*.js",
-    "lint": "npx tslint --config tslint.json 'lib/**/*.ts'",
-    "lint:fix": "npx tslint --config tslint.json 'lib/**/*.ts' --fix",
-    "test": "npx mocha"
+    "build": "node ./cli/run-build.js",
+    "cover": "node ./cli/run-cover.js",
+    "lint": "node ./cli/run-lint.js",
+    "lint:fix": "node ./cli/run-lint-fix.js",
+    "test": "node ./cli/run-test.js"
   },
   "types": "dist/index.d.ts",
   "version": "1.0.18"

@@ -6,6 +6,6 @@ function __export(m) {
     }
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("@hsk81/buffered"));
-
+__export(require("@dizmo/functions-buffered"));
+exports.default = undefined;
 //# sourceMappingURL=index.js.map
