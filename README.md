@@ -12,14 +12,14 @@ npm install @dizmo/functions --save
 ```
 ### Require
 ```javascript
-var lib = require('@dizmo/functions');
+var fn = require('@dizmo/functions');
 ```
 ### Examples
 ```javascript
-var buffered = require('@dizmo/functions').buffered;
+var buffered = fn.buffered;
 ```
 ```javascript
-var random = require('@dizmo/functions').random;
+var random = fn.random;
 ```
 
 ## Development
