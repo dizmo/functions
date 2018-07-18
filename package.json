@@ -31,7 +31,7 @@
   "name": "@dizmo/functions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dizmo/functions.git"
+    "url": "https://github.com/dizmo/functions.git"
   },
   "scripts": {
     "build": "node ./cli/run-build.js",
