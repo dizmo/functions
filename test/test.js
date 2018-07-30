@@ -10,7 +10,6 @@ describe('index', () => {
         expect(index.default).to.not.exist;
     });
 });
-
 describe('index.buffered', () => {
     it('should exist', () => {
         expect(index.buffered).to.exist;
@@ -19,7 +18,6 @@ describe('index.buffered', () => {
         expect(index.buffered).to.be.a('function');
     });
 });
-
 describe('index.random', () => {
     it('should exist', () => {
         expect(index.random).to.exist;
@@ -28,5 +26,10 @@ describe('index.random', () => {
     it('should be a function', () => {
         expect(index.random).to.be.a('function');
         expect(String.random).to.be.a('function');
+    });
+});
+describe('index.UUID', () => {
+    it('should not exist', () => {
+        expect(index.UUID).to.not.exist;
     });
 });
