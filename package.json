@@ -6,8 +6,8 @@
   },
   "description": "library of useful functions",
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.23",
-    "@dizmo/functions-random": "^1.0.11"
+    "@dizmo/functions-buffered": "^1.1.25",
+    "@dizmo/functions-random": "^1.0.14"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -38,7 +38,6 @@
     "build": "node ./cli/run-build.js",
     "cover": "node ./cli/run-cover.js",
     "lint": "node ./cli/run-lint.js",
-    "lint:fix": "node ./cli/run-lint-fix.js",
     "test": "node ./cli/run-test.js"
   },
   "types": "dist/index.d.ts",
