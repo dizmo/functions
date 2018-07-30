@@ -6,8 +6,8 @@
   },
   "description": "library of useful functions",
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.24",
-    "@dizmo/functions-random": "^1.0.14",
+    "@dizmo/functions-buffered": "^1.1.26",
+    "@dizmo/functions-random": "^1.0.15",
     "@dizmo/functions-uuid": "^1.0.1"
   },
   "devDependencies": {
