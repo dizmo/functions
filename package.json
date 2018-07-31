@@ -6,11 +6,13 @@
   },
   "description": "library of useful functions",
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.26",
-    "@dizmo/functions-random": "^1.0.15",
-    "@dizmo/functions-uuid": "^1.0.1"
+    "@dizmo/functions-buffered": "^1.1.30",
+    "@dizmo/functions-random": "^1.0.17",
+    "@dizmo/functions-uuid": "^1.0.6"
   },
   "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
@@ -18,10 +20,10 @@
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
     "tslint": "^5.11.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.0.1"
   },
   "files": [
-    "dist"
+    "dist/lib"
   ],
   "keywords": [
     "dizmo",
@@ -29,7 +31,7 @@
     "library"
   ],
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "dist/lib/index.js",
   "name": "@dizmo/functions",
   "repository": {
     "type": "git",
@@ -37,10 +39,10 @@
   },
   "scripts": {
     "build": "node ./cli/run-build.js",
-    "cover": "node ./cli/run-cover.js",
+    "cover": "node ./cli/run-test.js --cover",
     "lint": "node ./cli/run-lint.js",
     "test": "node ./cli/run-test.js"
   },
-  "types": "dist/index.d.ts",
+  "types": "dist/lib/index.d.ts",
   "version": "1.2.3"
 }
