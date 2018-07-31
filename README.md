@@ -12,7 +12,7 @@ npm install @dizmo/functions --save
 ```
 ### Require
 ```javascript
-var lib = require('@dizmo/functions');
+let lib = require('@dizmo/functions');
 ```
 ### Examples
 ```typescript
