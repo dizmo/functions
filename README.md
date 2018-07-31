@@ -12,32 +12,50 @@ npm install @dizmo/functions --save
 ```
 ### Require
 ```javascript
-var fn = require('@dizmo/functions');
+var lib = require('@dizmo/functions');
 ```
 ### Examples
-```javascript
-var buffered = fn.buffered;
+```typescript
+import { buffered } from '@dizmo/functions'
 ```
-```javascript
-var random = fn.random;
+```typescript
+import { random } from '@dizmo/functions'
 ```
-
+```typescript
+import { UUID } from '@dizmo/functions'
+```
 ## Development
 ### Build
 ```sh
 npm run build
 ```
+#### without linting:
+```sh
+npm run -- build --no-lint
+```
 ### Lint
 ```sh
 npm run lint
+```
+#### with auto-fixing (for JavaScript and TypeScript):
+```sh
+npm run -- lint --fix
 ```
 ### Test
 ```sh
 npm run test
 ```
+#### without (re-)building:
+```sh
+npm run -- test --no-build
+```
 ### Cover
 ```sh
 npm run cover
+```
+#### without (re-)building:
+```sh
+npm run -- cover --no-build
 ```
 
 ## Copyright

@@ -4,12 +4,12 @@
     "email": "hkarahan@dizmo.com",
     "url": "https://github.com/hsk81"
   },
-  "description": "library of useful functions",
   "dependencies": {
     "@dizmo/functions-buffered": "^1.1.30",
     "@dizmo/functions-random": "^1.0.17",
     "@dizmo/functions-uuid": "^1.0.6"
   },
+  "description": "library of useful functions",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.5",
@@ -27,7 +27,7 @@
   ],
   "keywords": [
     "dizmo",
-    "function",
+    "functions",
     "library"
   ],
   "license": "ISC",
