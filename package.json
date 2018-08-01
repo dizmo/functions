@@ -5,9 +5,9 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.30",
-    "@dizmo/functions-random": "^1.0.17",
-    "@dizmo/functions-uuid": "^1.0.6"
+    "@dizmo/functions-buffered": "^1.1.34",
+    "@dizmo/functions-random": "^1.0.19",
+    "@dizmo/functions-uuid": "^1.0.9"
   },
   "description": "library of useful functions",
   "devDependencies": {
