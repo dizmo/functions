@@ -1,8 +1,9 @@
 import { expect } from "chai";
-import "mocha";
 import { buffered } from "../lib/index";
 import { random } from "../lib/index";
 import { UUID } from "../lib/index";
+
+import "mocha";
 
 describe("index.buffered", () => {
     it("should exist", () => {
