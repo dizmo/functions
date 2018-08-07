@@ -5,7 +5,7 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {
-    "@dizmo/functions-buffered": "^1.1.35",
+    "@dizmo/functions-buffered": "^1.2.2",
     "@dizmo/functions-random": "^1.0.21",
     "@dizmo/functions-uuid": "^1.0.10"
   },
