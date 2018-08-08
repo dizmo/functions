@@ -7,8 +7,7 @@ function run_build() {
         : Promise.resolve();
 }
 function run_mocha() {
-    return run('node', arg('cover', './node_modules/nyc/bin/nyc.js'),
-        './node_modules/mocha/bin/mocha', 'dist/test');
+    return run('npx', arg('cover', 'nyc'), 'mocha', 'dist/test');
 }
 
 install('./node_modules')

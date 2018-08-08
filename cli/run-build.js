@@ -2,14 +2,13 @@ const { arg, install, run } = require('./run-util');
 const { exit } = require('process');
 
 function run_lint() {
-    return arg('lint') ?  run('npm', 'run', 'lint') : Promise.resolve();
+    return arg('lint') ? run('npm', 'run', 'lint') : Promise.resolve();
 }
 function run_build() {
-    return run('node', './node_modules/typescript/bin/tsc');
+    return run('npx', 'tsc');
 }
 function run_babel() {
-    return run('node', './node_modules/babel-cli/bin/babel.js', '--quiet',
-        '--presets=env','--source-maps', '--out-dir', 'dist', 'dist');
+    return run('npx', 'babel', '--presets=env', '-qsd', 'dist', 'dist');
 }
 
 install('./node_modules')
