@@ -2,7 +2,7 @@ const { arg, install, run } = require('./run-util');
 const { exit } = require('process');
 
 function run_lint() {
-    return arg('lint') ? run('npm', 'run', 'lint') : Promise.resolve();
+    return arg('lint') ? run('npm', 'run', 'lint') : null;
 }
 function run_build() {
     return run('npx', 'tsc');

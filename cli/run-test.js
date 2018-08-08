@@ -4,7 +4,7 @@ const { exit } = require('process');
 function run_build() {
     return arg('build')
         ? run('npm', 'run', '--', 'build', arg('lint', '--lint', '--no-lint'))
-        : Promise.resolve();
+        : null;
 }
 function run_mocha() {
     return run('npx', arg('cover', 'nyc'), 'mocha', 'dist/test');
