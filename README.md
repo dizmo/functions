@@ -16,7 +16,12 @@ let lib = require('@dizmo/functions');
 ```
 ### Examples
 ```typescript
+import { after } from '@dizmo/functions'
+import { after_decorator } from '@dizmo/functions'
+```
+```typescript
 import { buffered } from '@dizmo/functions'
+import { buffered_decorator } from '@dizmo/functions'
 ```
 ```typescript
 import { random } from '@dizmo/functions'

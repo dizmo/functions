@@ -1,16 +1,31 @@
 import { expect } from "chai";
-import { buffered } from "../lib/index";
-import { random } from "../lib/index";
-import { UUID } from "../lib/index";
+import { after, after_decorator } from "../lib";
+import { buffered, buffered_decorator } from "../lib";
+import { random } from "../lib";
+import { UUID } from "../lib";
 
 import "mocha";
 
+describe("index.after", () => {
+    it("should exist", () => {
+        expect(after).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(after).to.be.a("function");
+    });
+    it("should have a decorator", () => {
+        expect(after_decorator).to.be.a("function");
+    });
+});
 describe("index.buffered", () => {
     it("should exist", () => {
         expect(buffered).to.not.be.an("undefined");
     });
     it("should be a function", () => {
         expect(buffered).to.be.a("function");
+    });
+    it("should have a decorator", () => {
+        expect(buffered_decorator).to.be.a("function");
     });
 });
 describe("index.random", () => {

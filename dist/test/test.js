@@ -2,23 +2,38 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
-var index_1 = require("../lib/index");
-var index_2 = require("../lib/index");
+var lib_1 = require("../lib");
+var lib_2 = require("../lib");
+var lib_3 = require("../lib");
 require("mocha");
-describe("index.buffered", function () {
+describe("index.after", function () {
     it("should exist", function () {
-        chai_1.expect(index_1.buffered).to.not.be.an("undefined");
+        chai_1.expect(lib_1.after).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(index_1.buffered).to.be.a("function");
+        chai_1.expect(lib_1.after).to.be.a("function");
+    });
+    it("should have a decorator", function () {
+        chai_1.expect(lib_1.after_decorator).to.be.a("function");
+    });
+});
+describe("index.buffered", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_2.buffered).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_2.buffered).to.be.a("function");
+    });
+    it("should have a decorator", function () {
+        chai_1.expect(lib_2.buffered_decorator).to.be.a("function");
     });
 });
 describe("index.random", function () {
     it("should exist", function () {
-        chai_1.expect(index_2.random).to.not.be.an("undefined");
+        chai_1.expect(lib_3.random).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(index_2.random).to.be.a("function");
+        chai_1.expect(lib_3.random).to.be.a("function");
     });
 });
 describe("String.random", function () {
