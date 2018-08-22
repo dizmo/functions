@@ -6,7 +6,7 @@ var lib_1 = require("../lib");
 var lib_2 = require("../lib");
 var lib_3 = require("../lib");
 require("mocha");
-describe("index.after", function () {
+describe("after", function () {
     it("should exist", function () {
         chai_1.expect(lib_1.after).to.not.be.an("undefined");
     });
@@ -14,10 +14,10 @@ describe("index.after", function () {
         chai_1.expect(lib_1.after).to.be.a("function");
     });
     it("should have a decorator", function () {
-        chai_1.expect(lib_1.after_decorator).to.be.a("function");
+        chai_1.expect(lib_1.after.decorator).to.be.a("function");
     });
 });
-describe("index.buffered", function () {
+describe("buffered", function () {
     it("should exist", function () {
         chai_1.expect(lib_2.buffered).to.not.be.an("undefined");
     });
@@ -25,10 +25,10 @@ describe("index.buffered", function () {
         chai_1.expect(lib_2.buffered).to.be.a("function");
     });
     it("should have a decorator", function () {
-        chai_1.expect(lib_2.buffered_decorator).to.be.a("function");
+        chai_1.expect(lib_2.buffered.decorator).to.be.a("function");
     });
 });
-describe("index.random", function () {
+describe("random", function () {
     it("should exist", function () {
         chai_1.expect(lib_3.random).to.not.be.an("undefined");
     });
@@ -44,7 +44,7 @@ describe("String.random", function () {
         chai_1.expect(String.random).to.be.a("function");
     });
 });
-describe("index.UUID", function () {
+describe("UUID", function () {
     it("should be a string", function () {
         chai_1.expect("00000000-0000-0000-0000-000000000000").to.be.a("string");
     });
