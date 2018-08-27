@@ -1,5 +1,6 @@
 import { expect } from "chai";
 import { after } from "../lib";
+import { before } from "../lib";
 import { buffered } from "../lib";
 import { random } from "../lib";
 import { UUID } from "../lib";
@@ -15,6 +16,17 @@ describe("after", () => {
     });
     it("should have a decorator", () => {
         expect(after.decorator).to.be.a("function");
+    });
+});
+describe("before", () => {
+    it("should exist", () => {
+        expect(before).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(before).to.be.a("function");
+    });
+    it("should have a decorator", () => {
+        expect(before.decorator).to.be.a("function");
     });
 });
 describe("buffered", () => {
