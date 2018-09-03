@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("@dizmo/functions-after"));
 __export(require("@dizmo/functions-before"));
 __export(require("@dizmo/functions-buffered"));
+__export(require("@dizmo/functions-partial"));
 __export(require("@dizmo/functions-random"));
 exports.default = undefined;
 //# sourceMappingURL=index.js.map

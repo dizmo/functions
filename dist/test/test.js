@@ -6,6 +6,7 @@ var lib_1 = require("../lib");
 var lib_2 = require("../lib");
 var lib_3 = require("../lib");
 var lib_4 = require("../lib");
+var lib_5 = require("../lib");
 require("mocha");
 describe("after", function () {
     it("should exist", function () {
@@ -40,12 +41,20 @@ describe("buffered", function () {
         chai_1.expect(lib_3.buffered.decorator).to.be.a("function");
     });
 });
-describe("random", function () {
+describe("partial", function () {
     it("should exist", function () {
-        chai_1.expect(lib_4.random).to.not.be.an("undefined");
+        chai_1.expect(lib_4.partial).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_4.random).to.be.a("function");
+        chai_1.expect(lib_4.partial).to.be.a("function");
+    });
+});
+describe("random", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_5.random).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_5.random).to.be.a("function");
     });
 });
 describe("String.random", function () {

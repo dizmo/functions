@@ -2,6 +2,7 @@ import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
+import { partial } from "../lib";
 import { random } from "../lib";
 import { UUID } from "../lib";
 
@@ -38,6 +39,14 @@ describe("buffered", () => {
     });
     it("should have a decorator", () => {
         expect(buffered.decorator).to.be.a("function");
+    });
+});
+describe("partial", () => {
+    it("should exist", () => {
+        expect(partial).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(partial).to.be.a("function");
     });
 });
 describe("random", () => {
