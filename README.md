@@ -25,6 +25,9 @@ import { before } from '@dizmo/functions'
 import { buffered } from '@dizmo/functions'
 ```
 ```typescript
+import { partial } from '@dizmo/functions'
+```
+```typescript
 import { random } from '@dizmo/functions'
 ```
 ```typescript
