@@ -15,19 +15,24 @@ npm install @dizmo/functions --save
 let lib = require('@dizmo/functions');
 ```
 ### Examples
-
-<a href="https://github.com/dizmo/functions-after"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">after</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
-<a href="https://github.com/dizmo/functions-before"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">before</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
-<a href="https://github.com/dizmo/functions-buffered"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">buffered</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
-<a href="https://github.com/dizmo/functions-partial"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">partial</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
-<a href="https://github.com/dizmo/functions-random"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">random</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
-<a href="https://github.com/dizmo/functions-uuid"><style scoped>a { color: inherit; }</style><div class="highlight highlight-source-ts"><pre><span class="pl-k">import</span> { <span class="pl-smi">UUID</span> } <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>@dizmo/functions<span class="pl-pds">'</span></span></pre></div></a>
-
+```typescript
+import { after } from '@dizmo/functions'
+```
+```typescript
+import { before } from '@dizmo/functions'
+```
+```typescript
+import { buffered } from '@dizmo/functions'
+```
+```typescript
+import { partial } from '@dizmo/functions'
+```
+```typescript
+import { random } from '@dizmo/functions'
+```
+```typescript
+import { UUID } from '@dizmo/functions'
+```
 ## Development
 ### Build
 ```sh
