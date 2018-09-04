@@ -49,6 +49,14 @@ describe("partial", function () {
         chai_1.expect(lib_4.partial).to.be.a("function");
     });
 });
+describe("Function.partial", function () {
+    it("should exist", function () {
+        chai_1.expect(Function.partial).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(Function.partial).to.be.a("function");
+    });
+});
 describe("random", function () {
     it("should exist", function () {
         chai_1.expect(lib_5.random).to.not.be.an("undefined");

@@ -49,6 +49,14 @@ describe("partial", () => {
         expect(partial).to.be.a("function");
     });
 });
+describe("Function.partial", () => {
+    it("should exist", () => {
+        expect(Function.partial).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(Function.partial).to.be.a("function");
+    });
+});
 describe("random", () => {
     it("should exist", () => {
         expect(random).to.not.be.an("undefined");
