@@ -1,12 +1,17 @@
 "use strict";
 
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 Object.defineProperty(exports, "__esModule", { value: true });
+var uuid = "0000..0000";
 var chai_1 = require("chai");
 var lib_1 = require("../lib");
 var lib_2 = require("../lib");
 var lib_3 = require("../lib");
 var lib_4 = require("../lib");
 var lib_5 = require("../lib");
+var lib_6 = require("../lib");
+var lib_7 = require("../lib");
 require("mocha");
 describe("after", function () {
     it("should exist", function () {
@@ -41,6 +46,14 @@ describe("buffered", function () {
         chai_1.expect(lib_3.buffered.decorator).to.be.a("function");
     });
 });
+describe("Global", function () {
+    it("should allow a `global` declaration", function () {
+        chai_1.expect(typeof global === "undefined" ? "undefined" : _typeof(global)).to.not.be.an("undefined");
+    });
+    it("should allow a `global` as an object", function () {
+        chai_1.expect(typeof global === "undefined" ? "undefined" : _typeof(global)).to.eq("object");
+    });
+});
 describe("partial", function () {
     it("should exist", function () {
         chai_1.expect(lib_4.partial).to.not.be.an("undefined");
@@ -65,6 +78,22 @@ describe("random", function () {
         chai_1.expect(lib_5.random).to.be.a("function");
     });
 });
+describe("trace", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_6.trace).to.not.be.an("undefined");
+    });
+    it("should be a decorator", function () {
+        chai_1.expect(lib_6.trace).to.be.a("function");
+    });
+});
+describe("traceable", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_7.traceable).to.not.be.an("undefined");
+    });
+    it("should be a decorator", function () {
+        chai_1.expect(lib_7.traceable).to.be.a("function");
+    });
+});
 describe("String.random", function () {
     it("should exist", function () {
         chai_1.expect(String.random).to.not.be.an("undefined");
@@ -74,8 +103,11 @@ describe("String.random", function () {
     });
 });
 describe("UUID", function () {
-    it("should be a string", function () {
-        chai_1.expect("00000000-0000-0000-0000-000000000000").to.be.a("string");
+    it("should allow a `uuid` declaration", function () {
+        chai_1.expect(typeof uuid === "undefined" ? "undefined" : _typeof(uuid)).to.not.be.an("undefined");
+    });
+    it("should allow a `uuid` as a string", function () {
+        chai_1.expect(typeof uuid === "undefined" ? "undefined" : _typeof(uuid)).to.eq("string");
     });
 });
 //# sourceMappingURL=test.js.map

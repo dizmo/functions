@@ -1,10 +1,16 @@
+import { Global } from "../lib";
+declare const global: Global;
+import { UUID } from "../lib";
+const uuid: UUID = "0000..0000";
+
 import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
 import { partial } from "../lib";
 import { random } from "../lib";
-import { UUID } from "../lib";
+import { trace } from "../lib";
+import { traceable } from "../lib";
 
 import "mocha";
 
@@ -41,6 +47,14 @@ describe("buffered", () => {
         expect(buffered.decorator).to.be.a("function");
     });
 });
+describe("Global", () => {
+    it("should allow a `global` declaration", () => {
+        expect(typeof global).to.not.be.an("undefined");
+    });
+    it("should allow a `global` as an object", () => {
+        expect(typeof global).to.eq("object");
+    });
+});
 describe("partial", () => {
     it("should exist", () => {
         expect(partial).to.not.be.an("undefined");
@@ -65,6 +79,22 @@ describe("random", () => {
         expect(random).to.be.a("function");
     });
 });
+describe("trace", () => {
+    it("should exist", () => {
+        expect(trace).to.not.be.an("undefined");
+    });
+    it("should be a decorator", () => {
+        expect(trace).to.be.a("function");
+    });
+});
+describe("traceable", () => {
+    it("should exist", () => {
+        expect(traceable).to.not.be.an("undefined");
+    });
+    it("should be a decorator", () => {
+        expect(traceable).to.be.a("function");
+    });
+});
 describe("String.random", () => {
     it("should exist", () => {
         expect(String.random).to.not.be.an("undefined");
@@ -74,7 +104,10 @@ describe("String.random", () => {
     });
 });
 describe("UUID", () => {
-    it("should be a string", () => {
-        expect("00000000-0000-0000-0000-000000000000" as UUID).to.be.a("string");
+    it("should allow a `uuid` declaration", () => {
+        expect(typeof uuid).to.not.be.an("undefined");
+    });
+    it("should allow a `uuid` as a string", () => {
+        expect(typeof uuid).to.eq("string");
     });
 });

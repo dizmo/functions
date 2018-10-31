@@ -11,5 +11,6 @@ __export(require("@dizmo/functions-before"));
 __export(require("@dizmo/functions-buffered"));
 __export(require("@dizmo/functions-partial"));
 __export(require("@dizmo/functions-random"));
+__export(require("@dizmo/functions-trace"));
 exports.default = undefined;
 //# sourceMappingURL=index.js.map

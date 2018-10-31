@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/dizmo/functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/functions?branch=master)
 
 # @dizmo/functions
-Library of useful functions, which can be used in developing dizmos.
+Library of useful functions, which can be used to develop dizmos.
 
 ## Usage
 ### Install
@@ -25,10 +25,16 @@ import { before } from '@dizmo/functions'
 import { buffered } from '@dizmo/functions'
 ```
 ```typescript
+import { Global } from '@dizmo/functions'
+```
+```typescript
 import { partial } from '@dizmo/functions'
 ```
 ```typescript
 import { random } from '@dizmo/functions'
+```
+```typescript
+import { trace, traceable } from '@dizmo/functions'
 ```
 ```typescript
 import { UUID } from '@dizmo/functions'
