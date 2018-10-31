@@ -5,13 +5,13 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {
-    "@dizmo/functions-after": "^1.0.7",
-    "@dizmo/functions-before": "^1.0.5",
-    "@dizmo/functions-buffered": "^2.0.2",
-    "@dizmo/functions-partial": "^1.0.9",
-    "@dizmo/functions-random": "^1.0.26",
+    "@dizmo/functions-after": "^1.0.8",
+    "@dizmo/functions-before": "^1.0.6",
+    "@dizmo/functions-buffered": "^2.0.3",
+    "@dizmo/functions-partial": "^1.0.10",
+    "@dizmo/functions-random": "^1.0.27",
     "@dizmo/functions-trace": "^1.0.3",
-    "@dizmo/functions-uuid": "^1.0.14"
+    "@dizmo/functions-uuid": "^1.0.15"
   },
   "description": "library of useful functions",
   "devDependencies": {
