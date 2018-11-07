@@ -1,7 +1,5 @@
 import { Global } from "../lib";
 declare const global: Global;
-import { UUID } from "../lib";
-const uuid: UUID = "0000..0000";
 
 import { expect } from "chai";
 import { after } from "../lib";
@@ -101,13 +99,5 @@ describe("String.random", () => {
     });
     it("should be a function", () => {
         expect(String.random).to.be.a("function");
-    });
-});
-describe("UUID", () => {
-    it("should allow a `uuid` declaration", () => {
-        expect(typeof uuid).to.not.be.an("undefined");
-    });
-    it("should allow a `uuid` as a string", () => {
-        expect(typeof uuid).to.eq("string");
     });
 });

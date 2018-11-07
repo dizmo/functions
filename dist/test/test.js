@@ -3,7 +3,6 @@
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var uuid = "0000..0000";
 var chai_1 = require("chai");
 var lib_1 = require("../lib");
 var lib_2 = require("../lib");
@@ -100,14 +99,6 @@ describe("String.random", function () {
     });
     it("should be a function", function () {
         chai_1.expect(String.random).to.be.a("function");
-    });
-});
-describe("UUID", function () {
-    it("should allow a `uuid` declaration", function () {
-        chai_1.expect(typeof uuid === "undefined" ? "undefined" : _typeof(uuid)).to.not.be.an("undefined");
-    });
-    it("should allow a `uuid` as a string", function () {
-        chai_1.expect(typeof uuid === "undefined" ? "undefined" : _typeof(uuid)).to.eq("string");
     });
 });
 //# sourceMappingURL=test.js.map
