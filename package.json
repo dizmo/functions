@@ -10,7 +10,7 @@
     "@dizmo/functions-buffered": "^2.0.3",
     "@dizmo/functions-partial": "^1.0.10",
     "@dizmo/functions-random": "^1.0.27",
-    "@dizmo/functions-trace": "^1.0.3"
+    "@dizmo/functions-trace": "^1.0.4"
   },
   "description": "library of useful functions",
   "devDependencies": {

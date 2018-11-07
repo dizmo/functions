@@ -1,6 +1,3 @@
-import { Global } from "../lib";
-declare const global: Global;
-
 import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
@@ -43,14 +40,6 @@ describe("buffered", () => {
     });
     it("should have a decorator", () => {
         expect(buffered.decorator).to.be.a("function");
-    });
-});
-describe("Global", () => {
-    it("should allow a `global` declaration", () => {
-        expect(typeof global).to.not.be.an("undefined");
-    });
-    it("should allow a `global` as an object", () => {
-        expect(typeof global).to.eq("object");
     });
 });
 describe("partial", () => {
