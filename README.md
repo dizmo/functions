@@ -25,9 +25,6 @@ import { before } from '@dizmo/functions'
 import { buffered } from '@dizmo/functions'
 ```
 ```typescript
-import { Global } from '@dizmo/functions'
-```
-```typescript
 import { partial } from '@dizmo/functions'
 ```
 ```typescript
@@ -35,9 +32,6 @@ import { random } from '@dizmo/functions'
 ```
 ```typescript
 import { trace, traceable } from '@dizmo/functions'
-```
-```typescript
-import { UUID } from '@dizmo/functions'
 ```
 ## Development
 ### Build
