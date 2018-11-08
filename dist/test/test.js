@@ -9,6 +9,7 @@ var lib_4 = require("../lib");
 var lib_5 = require("../lib");
 var lib_6 = require("../lib");
 var lib_7 = require("../lib");
+var lib_8 = require("../lib");
 require("mocha");
 describe("after", function () {
     it("should exist", function () {
@@ -43,12 +44,20 @@ describe("buffered", function () {
         chai_1.expect(lib_3.buffered.decorator).to.be.a("function");
     });
 });
-describe("partial", function () {
+describe("json2tree", function () {
     it("should exist", function () {
-        chai_1.expect(lib_4.partial).to.not.be.an("undefined");
+        chai_1.expect(lib_4.json2tree).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_4.partial).to.be.a("function");
+        chai_1.expect(lib_4.json2tree).to.be.a("function");
+    });
+});
+describe("partial", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_5.partial).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_5.partial).to.be.a("function");
     });
 });
 describe("Function.partial", function () {
@@ -61,26 +70,26 @@ describe("Function.partial", function () {
 });
 describe("random", function () {
     it("should exist", function () {
-        chai_1.expect(lib_5.random).to.not.be.an("undefined");
+        chai_1.expect(lib_6.random).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_5.random).to.be.a("function");
+        chai_1.expect(lib_6.random).to.be.a("function");
     });
 });
 describe("trace", function () {
     it("should exist", function () {
-        chai_1.expect(lib_6.trace).to.not.be.an("undefined");
+        chai_1.expect(lib_7.trace).to.not.be.an("undefined");
     });
     it("should be a decorator", function () {
-        chai_1.expect(lib_6.trace).to.be.a("function");
+        chai_1.expect(lib_7.trace).to.be.a("function");
     });
 });
 describe("traceable", function () {
     it("should exist", function () {
-        chai_1.expect(lib_7.traceable).to.not.be.an("undefined");
+        chai_1.expect(lib_8.traceable).to.not.be.an("undefined");
     });
     it("should be a decorator", function () {
-        chai_1.expect(lib_7.traceable).to.be.a("function");
+        chai_1.expect(lib_8.traceable).to.be.a("function");
     });
 });
 describe("String.random", function () {

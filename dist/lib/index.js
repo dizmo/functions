@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("@dizmo/functions-after"));
 __export(require("@dizmo/functions-before"));
 __export(require("@dizmo/functions-buffered"));
+__export(require("@dizmo/functions-json2tree"));
 __export(require("@dizmo/functions-partial"));
 __export(require("@dizmo/functions-random"));
 __export(require("@dizmo/functions-trace"));
