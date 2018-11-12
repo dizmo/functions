@@ -11,7 +11,8 @@
     "@dizmo/functions-json2tree": "^1.0.0",
     "@dizmo/functions-partial": "^1.0.10",
     "@dizmo/functions-random": "^1.0.27",
-    "@dizmo/functions-trace": "^1.0.4"
+    "@dizmo/functions-trace": "^1.0.4",
+    "@dizmo/functions-tree2json": "^1.1.0"
   },
   "description": "library of useful functions",
   "devDependencies": {

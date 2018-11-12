@@ -13,5 +13,6 @@ __export(require("@dizmo/functions-json2tree"));
 __export(require("@dizmo/functions-partial"));
 __export(require("@dizmo/functions-random"));
 __export(require("@dizmo/functions-trace"));
+__export(require("@dizmo/functions-tree2json"));
 exports.default = undefined;
 //# sourceMappingURL=index.js.map

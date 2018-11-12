@@ -7,6 +7,7 @@ import { partial } from "../lib";
 import { random } from "../lib";
 import { trace } from "../lib";
 import { traceable } from "../lib";
+import { tree2array, tree2object } from "../lib";
 
 import "mocha";
 
@@ -75,6 +76,14 @@ describe("random", () => {
         expect(random).to.be.a("function");
     });
 });
+describe("String.random", () => {
+    it("should exist", () => {
+        expect(String.random).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(String.random).to.be.a("function");
+    });
+});
 describe("trace", () => {
     it("should exist", () => {
         expect(trace).to.not.be.an("undefined");
@@ -91,11 +100,19 @@ describe("traceable", () => {
         expect(traceable).to.be.a("function");
     });
 });
-describe("String.random", () => {
+describe("tree2array", () => {
     it("should exist", () => {
-        expect(String.random).to.not.be.an("undefined");
+        expect(tree2array).to.not.be.an("undefined");
     });
     it("should be a function", () => {
-        expect(String.random).to.be.a("function");
+        expect(tree2array).to.be.a("function");
+    });
+});
+describe("tree2object", () => {
+    it("should exist", () => {
+        expect(tree2object).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(tree2object).to.be.a("function");
     });
 });

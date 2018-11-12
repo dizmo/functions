@@ -10,6 +10,7 @@ var lib_5 = require("../lib");
 var lib_6 = require("../lib");
 var lib_7 = require("../lib");
 var lib_8 = require("../lib");
+var lib_9 = require("../lib");
 require("mocha");
 describe("after", function () {
     it("should exist", function () {
@@ -76,6 +77,14 @@ describe("random", function () {
         chai_1.expect(lib_6.random).to.be.a("function");
     });
 });
+describe("String.random", function () {
+    it("should exist", function () {
+        chai_1.expect(String.random).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(String.random).to.be.a("function");
+    });
+});
 describe("trace", function () {
     it("should exist", function () {
         chai_1.expect(lib_7.trace).to.not.be.an("undefined");
@@ -92,12 +101,20 @@ describe("traceable", function () {
         chai_1.expect(lib_8.traceable).to.be.a("function");
     });
 });
-describe("String.random", function () {
+describe("tree2array", function () {
     it("should exist", function () {
-        chai_1.expect(String.random).to.not.be.an("undefined");
+        chai_1.expect(lib_9.tree2array).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(String.random).to.be.a("function");
+        chai_1.expect(lib_9.tree2array).to.be.a("function");
+    });
+});
+describe("tree2object", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_9.tree2object).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_9.tree2object).to.be.a("function");
     });
 });
 //# sourceMappingURL=test.js.map
