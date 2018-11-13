@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
-import { json2tree } from "../lib";
+import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
 import { random } from "../lib";
 import { trace } from "../lib";
@@ -44,12 +44,20 @@ describe("buffered", () => {
         expect(buffered.decorator).to.be.a("function");
     });
 });
-describe("json2tree", () => {
+describe("array2tree", () => {
     it("should exist", () => {
-        expect(json2tree).to.not.be.an("undefined");
+        expect(array2tree).to.not.be.an("undefined");
     });
     it("should be a function", () => {
-        expect(json2tree).to.be.a("function");
+        expect(array2tree).to.be.a("function");
+    });
+});
+describe("object2tree", () => {
+    it("should exist", () => {
+        expect(object2tree).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(object2tree).to.be.a("function");
     });
 });
 describe("partial", () => {

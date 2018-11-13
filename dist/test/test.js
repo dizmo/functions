@@ -45,12 +45,20 @@ describe("buffered", function () {
         chai_1.expect(lib_3.buffered.decorator).to.be.a("function");
     });
 });
-describe("json2tree", function () {
+describe("array2tree", function () {
     it("should exist", function () {
-        chai_1.expect(lib_4.json2tree).to.not.be.an("undefined");
+        chai_1.expect(lib_4.array2tree).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_4.json2tree).to.be.a("function");
+        chai_1.expect(lib_4.array2tree).to.be.a("function");
+    });
+});
+describe("object2tree", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_4.object2tree).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_4.object2tree).to.be.a("function");
     });
 });
 describe("partial", function () {

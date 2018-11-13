@@ -8,11 +8,11 @@
     "@dizmo/functions-after": "^1.0.8",
     "@dizmo/functions-before": "^1.0.6",
     "@dizmo/functions-buffered": "^2.0.3",
-    "@dizmo/functions-json2tree": "^1.0.0",
+    "@dizmo/functions-json2tree": "^2.0.0",
     "@dizmo/functions-partial": "^1.0.10",
     "@dizmo/functions-random": "^1.0.27",
     "@dizmo/functions-trace": "^1.0.4",
-    "@dizmo/functions-tree2json": "^1.1.1"
+    "@dizmo/functions-tree2json": "^1.1.2"
   },
   "description": "library of useful functions",
   "devDependencies": {
