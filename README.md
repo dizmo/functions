@@ -33,6 +33,10 @@ import { random } from '@dizmo/functions'
 ```typescript
 import { trace, traceable } from '@dizmo/functions'
 ```
+```typescript
+import { array2tree, object2tree } from '@dizmo/functions'
+import { tree2array, tree2object } from '@dizmo/functions'
+```
 ## Development
 ### Build
 ```sh
