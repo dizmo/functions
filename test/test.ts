@@ -4,6 +4,7 @@ import { before } from "../lib";
 import { buffered } from "../lib";
 import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
+import { queued } from "../lib";
 import { random } from "../lib";
 import { trace } from "../lib";
 import { traceable } from "../lib";
@@ -82,6 +83,22 @@ describe("random", () => {
     });
     it("should be a function", () => {
         expect(random).to.be.a("function");
+    });
+});
+describe("queued", () => {
+    it("should exist", () => {
+        expect(queued).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(queued).to.be.a("function");
+    });
+});
+describe("queued.auto", () => {
+    it("should exist", () => {
+        expect(queued.auto).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(queued.auto).to.be.a("function");
     });
 });
 describe("String.random", () => {
