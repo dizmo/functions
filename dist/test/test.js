@@ -11,6 +11,7 @@ var lib_6 = require("../lib");
 var lib_7 = require("../lib");
 var lib_8 = require("../lib");
 var lib_9 = require("../lib");
+var lib_10 = require("../lib");
 require("mocha");
 describe("after", function () {
     it("should exist", function () {
@@ -79,10 +80,26 @@ describe("Function.partial", function () {
 });
 describe("random", function () {
     it("should exist", function () {
-        chai_1.expect(lib_6.random).to.not.be.an("undefined");
+        chai_1.expect(lib_7.random).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_6.random).to.be.a("function");
+        chai_1.expect(lib_7.random).to.be.a("function");
+    });
+});
+describe("queued", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_6.queued).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_6.queued).to.be.a("function");
+    });
+});
+describe("queued.auto", function () {
+    it("should exist", function () {
+        chai_1.expect(lib_6.queued.auto).to.not.be.an("undefined");
+    });
+    it("should be a function", function () {
+        chai_1.expect(lib_6.queued.auto).to.be.a("function");
     });
 });
 describe("String.random", function () {
@@ -95,34 +112,34 @@ describe("String.random", function () {
 });
 describe("trace", function () {
     it("should exist", function () {
-        chai_1.expect(lib_7.trace).to.not.be.an("undefined");
+        chai_1.expect(lib_8.trace).to.not.be.an("undefined");
     });
     it("should be a decorator", function () {
-        chai_1.expect(lib_7.trace).to.be.a("function");
+        chai_1.expect(lib_8.trace).to.be.a("function");
     });
 });
 describe("traceable", function () {
     it("should exist", function () {
-        chai_1.expect(lib_8.traceable).to.not.be.an("undefined");
+        chai_1.expect(lib_9.traceable).to.not.be.an("undefined");
     });
     it("should be a decorator", function () {
-        chai_1.expect(lib_8.traceable).to.be.a("function");
+        chai_1.expect(lib_9.traceable).to.be.a("function");
     });
 });
 describe("tree2array", function () {
     it("should exist", function () {
-        chai_1.expect(lib_9.tree2array).to.not.be.an("undefined");
+        chai_1.expect(lib_10.tree2array).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_9.tree2array).to.be.a("function");
+        chai_1.expect(lib_10.tree2array).to.be.a("function");
     });
 });
 describe("tree2object", function () {
     it("should exist", function () {
-        chai_1.expect(lib_9.tree2object).to.not.be.an("undefined");
+        chai_1.expect(lib_10.tree2object).to.not.be.an("undefined");
     });
     it("should be a function", function () {
-        chai_1.expect(lib_9.tree2object).to.be.a("function");
+        chai_1.expect(lib_10.tree2object).to.be.a("function");
     });
 });
 //# sourceMappingURL=test.js.map
