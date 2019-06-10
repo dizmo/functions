@@ -17,21 +17,17 @@ npm install @dizmo/functions --save
 ### Require
 
 ```javascript
-let lib = require('@dizmo/functions');
+const functions = require('@dizmo/functions');
 ```
 
 ### Examples
 
 ```typescript
-import { after } from '@dizmo/functions'
+import { after, before } from '@dizmo/functions'
 ```
 
 ```typescript
-import { before } from '@dizmo/functions'
-```
-
-```typescript
-import { buffered } from '@dizmo/functions'
+import { buffered, queued } from '@dizmo/functions'
 ```
 
 ```typescript
@@ -48,6 +44,9 @@ import { trace, traceable } from '@dizmo/functions'
 
 ```typescript
 import { array2tree, object2tree } from '@dizmo/functions'
+```
+
+```typescript
 import { tree2array, tree2object } from '@dizmo/functions'
 ```
 
@@ -119,6 +118,12 @@ npm run cover
 npm run -- cover --no-lint --no-clean --no-build
 ```
 
+## Documentation
+
+```sh
+npm run docs
+```
+
 ## Publish
 
 ```sh
@@ -133,4 +138,4 @@ npm publish --access=public
 
 ## Copyright
 
- © 2019 [dizmo AG](http://dizmo.com/), Switzerland
+ © 2020 [dizmo AG](http://dizmo.com/), Switzerland
