@@ -5,15 +5,15 @@
     "url": "https://github.com/hsk81"
   },
   "dependencies": {
-    "@dizmo/functions-after": "^1.0.15",
-    "@dizmo/functions-before": "^1.0.10",
-    "@dizmo/functions-buffered": "^2.0.9",
-    "@dizmo/functions-json2tree": "^2.0.8",
-    "@dizmo/functions-partial": "^1.0.14",
-    "@dizmo/functions-queued": "^1.0.3",
-    "@dizmo/functions-random": "^1.0.31",
-    "@dizmo/functions-trace": "^1.0.14",
-    "@dizmo/functions-tree2json": "^1.1.9"
+    "@dizmo/functions-after": "^1.0.16",
+    "@dizmo/functions-before": "^1.0.11",
+    "@dizmo/functions-buffered": "^2.0.10",
+    "@dizmo/functions-json2tree": "^2.0.9",
+    "@dizmo/functions-partial": "^1.0.15",
+    "@dizmo/functions-queued": "^1.0.4",
+    "@dizmo/functions-random": "^1.0.32",
+    "@dizmo/functions-trace": "^1.0.15",
+    "@dizmo/functions-tree2json": "^1.1.10"
   },
   "description": "library of useful functions",
   "devDependencies": {
@@ -23,14 +23,14 @@
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.3",
+    "coveralls": "^3.0.4",
     "exorcist": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
     "tslint": "^5.17.0",
     "typescript": "^3.5.1",
-    "yargs": "^12.0.5"
+    "yargs": "^13.2.4"
   },
   "files": [
     "dist/lib"
@@ -49,6 +49,7 @@
   },
   "scripts": {
     "build": "node ./cli/run-build.js",
+    "clean": "node ./cli/run-clean.js",
     "cover": "node ./cli/run-test.js --cover",
     "lint": "node ./cli/run-lint.js",
     "prepack": "node ./cli/run-prepack.js",
