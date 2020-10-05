@@ -2,6 +2,7 @@ import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
+import { filter } from "../lib";
 import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
 import { queued } from "../lib";
@@ -43,6 +44,14 @@ describe("buffered", () => {
     });
     it("should have a decorator", () => {
         expect(buffered.decorator).to.be.a("function");
+    });
+});
+describe("filter", () => {
+    it("should exist", () => {
+        expect(filter).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(filter).to.be.a("function");
     });
 });
 describe("array2tree", () => {

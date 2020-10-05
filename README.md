@@ -31,6 +31,10 @@ import { buffered, queued } from '@dizmo/functions'
 ```
 
 ```typescript
+import { filter } from '@dizmo/functions'
+```
+
+```typescript
 import { partial } from '@dizmo/functions'
 ```
 
