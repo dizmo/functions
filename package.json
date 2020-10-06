@@ -10,7 +10,7 @@
     "@dizmo/functions-buffered": "^2.0.12",
     "@dizmo/functions-filter": "^1.0.2",
     "@dizmo/functions-json2tree": "^2.0.10",
-    "@dizmo/functions-partial": "^1.0.17",
+    "@dizmo/functions-partial": "^1.0.18",
     "@dizmo/functions-queued": "^1.0.5",
     "@dizmo/functions-random": "^2.0.0",
     "@dizmo/functions-trace": "^1.0.16",
