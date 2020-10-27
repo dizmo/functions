@@ -1,5 +1,5 @@
 [![NPM version](https://badge.fury.io/js/%40dizmo%2Ffunctions.svg)](https://npmjs.org/package/@dizmo/functions)
-[![Build Status](https://travis-ci.org/dizmo/functions.svg?branch=master)](https://travis-ci.org/dizmo/functions)
+[![Build Status](https://travis-ci.com/dizmo/functions.svg?branch=master)](https://travis-ci.com/dizmo/functions)
 [![Coverage Status](https://coveralls.io/repos/github/dizmo/functions/badge.svg?branch=master)](https://coveralls.io/github/dizmo/functions?branch=master)
 
 # @dizmo/functions
