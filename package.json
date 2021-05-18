@@ -11,7 +11,7 @@
     "@dizmo/functions-filter": "^1.0.4",
     "@dizmo/functions-json2tree": "^2.0.12",
     "@dizmo/functions-partial": "^1.0.22",
-    "@dizmo/functions-queued": "^1.0.7",
+    "@dizmo/functions-queued": "^1.0.8",
     "@dizmo/functions-random": "^2.0.5",
     "@dizmo/functions-trace": "^1.0.18",
     "@dizmo/functions-tree2json": "^1.1.13",
