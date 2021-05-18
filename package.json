@@ -7,7 +7,7 @@
   "dependencies": {
     "@dizmo/functions-after": "^1.0.20",
     "@dizmo/functions-before": "^1.0.15",
-    "@dizmo/functions-buffered": "^2.0.14",
+    "@dizmo/functions-buffered": "^2.0.15",
     "@dizmo/functions-filter": "^1.0.4",
     "@dizmo/functions-json2tree": "^2.0.12",
     "@dizmo/functions-partial": "^1.0.22",
