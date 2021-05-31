@@ -2,6 +2,7 @@ import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
+import { deprecated, original } from "../lib";
 import { filter } from "../lib";
 import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
@@ -44,6 +45,22 @@ describe("buffered", () => {
     });
     it("should have a decorator", () => {
         expect(buffered.decorator).to.be.a("function");
+    });
+});
+describe("deprecated", () => {
+    it("should exist", () => {
+        expect(deprecated).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(deprecated).to.be.a("function");
+    });
+});
+describe("original", () => {
+    it("should exist", () => {
+        expect(original).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(original).to.be.a("function");
     });
 });
 describe("filter", () => {

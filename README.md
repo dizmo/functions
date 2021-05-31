@@ -31,6 +31,10 @@ import { buffered, queued } from '@dizmo/functions'
 ```
 
 ```typescript
+import { deprecated, original } from '@dizmo/functions';
+```
+
+```typescript
 import { filter } from '@dizmo/functions'
 ```
 
@@ -142,4 +146,4 @@ npm publish --access=public
 
 ## Copyright
 
- © 2020 [dizmo AG](http://dizmo.com/), Switzerland
+ © 2021 [dizmo AG](http://dizmo.com/), Switzerland
