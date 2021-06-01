@@ -2,7 +2,8 @@ import { expect } from "chai";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
-import { deprecated, original } from "../lib";
+import { experimental, unexperimental } from "../lib";
+import { deprecated, undeprecated } from "../lib";
 import { filter } from "../lib";
 import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
@@ -47,6 +48,22 @@ describe("buffered", () => {
         expect(buffered.decorator).to.be.a("function");
     });
 });
+describe("experimental", () => {
+    it("should exist", () => {
+        expect(experimental).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(experimental).to.be.a("function");
+    });
+});
+describe("unexperimental", () => {
+    it("should exist", () => {
+        expect(unexperimental).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(unexperimental).to.be.a("function");
+    });
+});
 describe("deprecated", () => {
     it("should exist", () => {
         expect(deprecated).to.not.be.an("undefined");
@@ -55,12 +72,12 @@ describe("deprecated", () => {
         expect(deprecated).to.be.a("function");
     });
 });
-describe("original", () => {
+describe("undeprecated", () => {
     it("should exist", () => {
-        expect(original).to.not.be.an("undefined");
+        expect(undeprecated).to.not.be.an("undefined");
     });
     it("should be a function", () => {
-        expect(original).to.be.a("function");
+        expect(undeprecated).to.be.a("function");
     });
 });
 describe("filter", () => {

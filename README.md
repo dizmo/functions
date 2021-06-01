@@ -31,7 +31,11 @@ import { buffered, queued } from '@dizmo/functions'
 ```
 
 ```typescript
-import { deprecated, original } from '@dizmo/functions';
+import { experimental, unexperimental } from '@dizmo/functions';
+```
+
+```typescript
+import { deprecated, undeprecated } from '@dizmo/functions';
 ```
 
 ```typescript
