@@ -14,10 +14,9 @@
     "@dizmo/functions-json2tree": "^2.0.12",
     "@dizmo/functions-partial": "^1.0.22",
     "@dizmo/functions-queued": "^1.0.8",
-    "@dizmo/functions-random": "^2.0.5",
+    "@dizmo/functions-random": "^2.0.6",
     "@dizmo/functions-trace": "^1.0.18",
-    "@dizmo/functions-tree2json": "^1.1.13",
-    "buffer": "^6.0.3"
+    "@dizmo/functions-tree2json": "^1.1.13"
   },
   "description": "library of useful functions",
   "devDependencies": {
@@ -32,7 +31,6 @@
     "chai": "^4.3.4",
     "coveralls": "^3.1.0",
     "eslint": "^7.26.0",
-    "esm": "^3.2.25",
     "minami": "^1.2.3",
     "mocha": "^8.4.0",
     "nyc": "^15.1.0",
