@@ -1,8 +1,8 @@
 export * from "@dizmo/functions-after";
 export * from "@dizmo/functions-before";
 export * from "@dizmo/functions-buffered";
-export { deprecated, original as undeprecated } from "@dizmo/functions-deprecated";
-export { experimental, original as unexperimental } from "@dizmo/functions-experimental";
+export * from "@dizmo/functions-deprecated";
+export * from "@dizmo/functions-experimental";
 export * from "@dizmo/functions-filter";
 export * from "@dizmo/functions-json2tree";
 export * from "@dizmo/functions-partial";
