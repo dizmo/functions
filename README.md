@@ -23,6 +23,10 @@ const functions = require('@dizmo/functions');
 ### Examples
 
 ```typescript
+import { agent } from '@dizmo/functions'
+```
+
+```typescript
 import { after, before } from '@dizmo/functions'
 ```
 
@@ -150,4 +154,4 @@ npm publish --access=public
 
 ## Copyright
 
- © 2021 [dizmo AG](http://dizmo.com/), Switzerland
+ © 2021 [dizmo AG](https://dizmo.com/), Switzerland

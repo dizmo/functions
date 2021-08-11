@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@dizmo/functions-after": "^1.0.20",
+    "@dizmo/functions-agent": "^1.0.0",
     "@dizmo/functions-before": "^1.0.15",
     "@dizmo/functions-buffered": "^2.0.15",
     "@dizmo/functions-deprecated": "^2.1.3",

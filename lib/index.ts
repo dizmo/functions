@@ -1,3 +1,4 @@
+export * from "@dizmo/functions-agent";
 export * from "@dizmo/functions-after";
 export * from "@dizmo/functions-before";
 export * from "@dizmo/functions-buffered";

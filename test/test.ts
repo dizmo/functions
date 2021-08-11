@@ -1,4 +1,5 @@
 import { expect } from "chai";
+import { agent } from "../lib";
 import { after } from "../lib";
 import { before } from "../lib";
 import { buffered } from "../lib";
@@ -13,8 +14,14 @@ import { trace } from "../lib";
 import { traceable } from "../lib";
 import { tree2array, tree2object } from "../lib";
 
-import "mocha";
-
+describe("agent", () => {
+    it("should exist", () => {
+        expect(agent).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(agent).to.be.a("function");
+    });
+});
 describe("after", () => {
     it("should exist", () => {
         expect(after).to.not.be.an("undefined");
