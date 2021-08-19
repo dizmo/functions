@@ -1,4 +1,5 @@
 import { expect } from "chai";
+
 import { agent } from "../lib";
 import { after } from "../lib";
 import { before } from "../lib";
@@ -6,6 +7,7 @@ import { buffered } from "../lib";
 import { experimental, unexperimental } from "../lib";
 import { deprecated, undeprecated } from "../lib";
 import { filter } from "../lib";
+import { Lock } from "../lib";
 import { array2tree, object2tree } from "../lib";
 import { partial } from "../lib";
 import { queued } from "../lib";
@@ -93,6 +95,14 @@ describe("filter", () => {
     });
     it("should be a function", () => {
         expect(filter).to.be.a("function");
+    });
+});
+describe("Lock", () => {
+    it("should exist", () => {
+        expect(Lock).to.not.be.an("undefined");
+    });
+    it("should be a function", () => {
+        expect(Lock).to.be.a("function");
     });
 });
 describe("array2tree", () => {

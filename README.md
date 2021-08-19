@@ -8,7 +8,7 @@ Library of useful functions, which can be used to develop dizmos.
 
 ## Usage
 
-### Install
+### Installation
 
 ```sh
 npm install @dizmo/functions --save
@@ -17,10 +17,10 @@ npm install @dizmo/functions --save
 ### Require
 
 ```javascript
-const functions = require('@dizmo/functions');
+import '@dizmo/functions';
 ```
 
-### Examples
+### Example(s)
 
 ```typescript
 import { agent } from '@dizmo/functions'
@@ -44,6 +44,10 @@ import { deprecated, undeprecated } from '@dizmo/functions';
 
 ```typescript
 import { filter } from '@dizmo/functions'
+```
+
+```typescript
+import { Lock } from '@dizmo/functions'
 ```
 
 ```typescript
@@ -134,13 +138,45 @@ npm run cover
 npm run -- cover --no-lint --no-clean --no-build
 ```
 
+## Debugging
+
+Connect `@dizmo/functions` to another project:
+
+```sh
+[@dizmo/functions] $ npm link # symlink global:@dizmo/functions
+```
+
+```sh
+[a-project] $ npm link @dizmo/functions # symlink node-modules:@dizmo/functions
+```
+
+```sh
+[a-project] $ head webpack.config.js # ensure @dizmo/functions in entry.main
+```
+
+```
+entry: {
+    main: [..., '@dizmo/functions', './source/index.js']
+}
+```
+
+Disconnect `@dizmo/functions` from the project:
+
+```sh
+[a-project] $ npm unlink @dizmo/functions # delete local symlink
+```
+
+```sh
+[@dizmo/functions] $ npm uninstall -g # delete global symlink
+```
+
 ## Documentation
 
 ```sh
 npm run docs
 ```
 
-## Publish
+## Publication
 
 ```sh
 npm publish

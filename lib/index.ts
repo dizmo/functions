@@ -6,6 +6,7 @@ export * from "@dizmo/functions-deprecated";
 export * from "@dizmo/functions-experimental";
 export * from "@dizmo/functions-filter";
 export * from "@dizmo/functions-json2tree";
+export * from "@dizmo/functions-lock";
 export * from "@dizmo/functions-partial";
 export * from "@dizmo/functions-queued";
 export * from "@dizmo/functions-random";
