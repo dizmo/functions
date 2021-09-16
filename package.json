@@ -4,6 +4,12 @@
     "email": "hkarahan@dizmo.com",
     "url": "https://github.com/hsk81"
   },
+  "contributors": [
+    {
+      "name": "Hasan Karahan",
+      "email": "hasan.karahan@blackhan.com"
+    }
+  ],
   "dependencies": {
     "@dizmo/functions-after": "^1.0.20",
     "@dizmo/functions-agent": "^1.0.0",
@@ -20,7 +26,7 @@
     "@dizmo/functions-trace": "^1.0.18",
     "@dizmo/functions-tree2json": "^1.1.13"
   },
-  "description": "library of useful functions",
+  "description": "library of functions",
   "devDependencies": {
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
